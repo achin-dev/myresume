@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0b1020;
+    font-family: Arial, sans-serif;
+    color: #182033;
+}
+
+.resume {
+    width: 700px;
+    margin: 25px auto;
+    padding: 25px 35px;
+    background: white;
+    border: 4px solid #5b21b6;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 12px;
+    background: linear-gradient(135deg, #111827, #4c1d95);
+    color: white;
+    border-radius: 7px;
+}
+
+header h1 {
+    margin: 5px;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+header p {
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* Navigation */
+
+nav {
+    text-align: center;
+    padding: 13px;
+    border-bottom: 3px solid #5b21b6;
+}
+
+nav a {
+    color: blue;
+    margin: 0 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: #7c3aed;
+}
+
+/* Sections */
+
+section {
+    margin: 14px 0;
+}
+
+h2 {
+    margin-bottom: 7px;
+    padding: 6px 10px;
+    color: white;
+    background: #312e81;
+    border-left: 6px solid #7c3aed;
+    font-size: 17px;
+}
+
+p, li, td {
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+ul {
+    margin-top: 5px;
+}
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #9ca3af;
+    padding: 7px;
+}
+
+th {
+    background: #ddd6fe;
+    color: #312e81;
+    font-weight: bold;
+}
+
+/* Small highlight */
+
+section p b {
+    color: #5b21b6;
+}
